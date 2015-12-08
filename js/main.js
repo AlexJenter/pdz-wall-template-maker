@@ -1,26 +1,11 @@
 // TEXT CHANGE
-$('#vorname').click( function() {
-    var oldContent =  $('#vorname').text();
-    var newContent = prompt("can i haz first name?", oldContent);
-    if (newContent ==="") { newContent = oldContent; }
-    $('#vorname').text( newContent );
-    if ($('#vorname').text() ==="")  { $('#vorname').text(oldContent) }
+$('*[id^=txt]').click( function() {
+    var oldContent =  $(this).text();
+    var newContent = prompt("can i haz " + oldContent + "?", oldContent);
+    if ( newContent ==="" ) { newContent = oldContent; }
+    $(this).text( newContent );
+    if ( $(this).text() ==="" )  { $(this).text(oldContent) }
 });
-$('#name').click( function() {
-    var oldContent =  $('#name').text();
-    var newContent = prompt("can i haz last name?", oldContent);
-    if (newContent ==="") { newContent = oldContent; }
-    $('#name').text( newContent );
-    if ($('#name').text() ==="")  { $('#name').text(oldContent) }
-});
-$('#mail').click( function() {
-    var oldContent =  $('#mail').text();
-    var newContent = prompt("can i haz last name?", oldContent);
-    if (newContent ==="") { newContent = oldContent; }
-    $('#mail').text( newContent );
-    if ($('#mail').text() ==="")  { $('#mail').text(oldContent) }
-});
-
 
 // DROP IMAGE
 FileReaderJS.setupDrop(document.body, {
@@ -51,16 +36,6 @@ $('span').click( function() {
     $('#path').css({fill: hexcol});
 });
 
-// EXPORT SVG
-// $('.fa-download').click( function() {
-//     var exportSVG =  $('svg').outerHTML();
-//     var blob = new Blob([ exportSVG ], {type: "image/svg+xml"});
-//     saveAs(blob, "export.svg");
-//     // demoSvgDocument();
-//     // console.log( blob );
-// });
-
-
 // EXPORT PNG > PDF
 $('.fa-download').click( function () {
     svgAsPngUri( $("#svg")[0], {scale: 4.166}, function(uri) {
@@ -70,3 +45,12 @@ $('.fa-download').click( function () {
         doc.save('test.pdf');
     });
 });
+
+// EXPORT SVG
+// $('.fa-download').click( function() {
+//     var exportSVG =  $('svg').outerHTML();
+//     var blob = new Blob([ exportSVG ], {type: "image/svg+xml"});
+//     saveAs(blob, "export.svg");
+//     // demoSvgDocument();
+//     // console.log( blob );
+// });
