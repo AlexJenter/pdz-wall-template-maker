@@ -1,11 +1,36 @@
+// NAV
+function switchTo( el, path ){
+    el.click( function() {
+        $('.active').removeClass('active');
+        $(this).addClass('active');
+        $('.content').load( path )
+    });
+}
+
+switchTo( $('#Home'),"../svg/uebersicht.svg");
+switchTo( $('#sp'),  "../svg/schwerpunkt.svg");
+switchTo( $('#ft'),  "../svg/thema.svg");
+switchTo( $('#ma'),  "../svg/person.svg");
+switchTo( $('#st'),  "../svg/student.svg");
+switchTo( $('#am'),  "../svg/student.svg");
+
 // TEXT CHANGE
-$('*[id^=txt]').click( function() {
-    var oldContent =  $(this).text();
-    var newContent = prompt("can i haz " + oldContent + "?", oldContent);
-    if ( newContent ==="" ) { newContent = oldContent; }
-    $(this).text( newContent );
-    if ( $(this).text() ==="" )  { $(this).text(oldContent) }
-});
+function textChange( el, prompt ) {
+    el.click( function() {
+        var oldContent =  $(this).text();
+        var newContent = prompt( prompt );
+        if ( newContent ==="" ) { newContent = oldContent; }
+        $(this).text( newContent );
+        if ( $(this).text() ==="" )  { $(this).text(oldContent) }
+    });
+}
+textChange( $('#vorname'), "Bitte Vorname eingeben...");
+textChange( $('#name'),    "Bitte Name eingeben...");
+textChange( $('#nachname'),"Bitte Nachname eingeben...");
+textChange( $('#zimmer'),  "Bitte Zimmernummer eingeben...");
+textChange( $('#tel'),     "Bitte Telefonnummer eingeben...");
+
+
 
 // DROP IMAGE
 FileReaderJS.setupDrop(document.body, {

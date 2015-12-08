@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="595.28px"
+	 height="841.89px" viewBox="0 0 595.28 841.89" xml:space="preserve">
+<polyline style="fill:none;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" points="238.54,702.91 238.54,570.62 
+	297.64,446.86 356.74,570.62 356.74,702.91 "/>
+<line style="fill:none;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" x1="297.64" y1="369.81" x2="297.64" y2="378.11"/>
+<circle style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="297.64" cy="280.43" r="89.38"/>
+<circle id="mitarbeiter" style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="297.64" cy="446.86" r="68.75"/>
+<circle id="student_1_" style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="238.54" cy="570.62" r="55"/>
+<circle id="student" style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="356.74" cy="570.62" r="55"/>
+<circle id="student_2_" style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="238.54" cy="688.26" r="55"/>
+<circle id="aemter" style="fill:#FFFFFF;stroke:#000000;stroke-width:1.201;stroke-miterlimit:10;" cx="356.74" cy="688.26" r="55"/>
+<text transform="matrix(1 0 0 1 222.0415 276.9185)"><tspan x="0" y="0" style="font-family:'PTMono-Regular'; font-size:12px;">Forschungsschwerpukte</tspan><tspan x="18" y="14.4" style="font-family:'PTMono-Regular'; font-size:12px;">Forschungsthemen</tspan></text>
+<text transform="matrix(1 0 0 1 258.0405 450.5538)" style="font-family:'PTMono-Regular'; font-size:12px;">Mitarbeiter</text>
+<text transform="matrix(1 0 0 1 206.1394 574.3076)" style="font-family:'PTMono-Regular'; font-size:12px;">Studenten</text>
+<text transform="matrix(1 0 0 1 324.3422 574.3069)" style="font-family:'PTMono-Regular'; font-size:12px;">Studenten</text>
+<text transform="matrix(1 0 0 1 206.1391 691.9481)" style="font-family:'PTMono-Regular'; font-size:12px;">Studenten</text>
+<text transform="matrix(1 0 0 1 338.7419 691.9602)" style="font-family:'PTMono-Regular'; font-size:12px;">Ämter</text>
+</svg>

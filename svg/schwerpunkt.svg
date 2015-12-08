@@ -4,5 +4,6 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="425.2px" height="425.2px"
 	 viewBox="0 0 425.2 425.2" xml:space="preserve">
 <circle style="fill:#881A51;" cx="212.6" cy="212.6" r="184.25"/>
-<text id="txt-titel" transform="matrix(1 0 0 1 90.8273 149.4931)"><tspan x="0" y="0" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:40px;">human</tspan><tspan x="0" y="48" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:40px;">behaviour</tspan></text>
+<rect x="90.83" y="119.5" style="fill:none;" width="246.67" height="202"/>
+<text id="name" transform="matrix(1 0 0 1 90.8273 149.5)"><tspan x="0" y="0" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:40px;">human</tspan><tspan x="0" y="48" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:40px;">behaviour</tspan></text>
 </svg>
