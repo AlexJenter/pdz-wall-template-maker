@@ -1,0 +1,41 @@
+nav {
+    display: block;
+    max-width: 840px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-indent: 0;
+    list-style: none;
+}
+
+nav .active {
+    box-shadow: 0 3px 0 #881A51;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.colors {
+    justify-content: flex-start;
+}
+
+nav li{
+    display: inline-block;
+    font-weight: bold;
+    padding: 1em 0 0.5em;
+}
+
+
+
+
+span {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.33em;
+    border-radius: 50%;
+    cursor: pointer;
+}
