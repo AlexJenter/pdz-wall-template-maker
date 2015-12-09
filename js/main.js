@@ -66,7 +66,7 @@ $('span').click( function() {
         }
         hexcol = '#' + parts.join('');
     }
-    $('#path').css({fill: hexcol});
+    $('rect').css({fill: hexcol});
 });
 
 // EXPORT PNG > PDF
