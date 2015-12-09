@@ -1,6 +1,9 @@
 nav {
     display: block;
-    max-width: 840px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
     margin: 0 auto;
     text-decoration: none;
     text-indent: 0;
