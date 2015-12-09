@@ -1,48 +1,56 @@
 // NAV
-function switchTo( el, path ){
+function switchSVG( el, path ){
     el.click( function() {
         $('.active').removeClass('active');
         $(this).addClass('active');
-        $('.content').load( path )
+        $('.content').load( path, function() {
+            assignLabels();
+        });
     });
+
 }
 
-switchTo( $('#Home'),"../svg/uebersicht.svg");
-switchTo( $('#sp'),  "../svg/schwerpunkt.svg");
-switchTo( $('#ft'),  "../svg/thema.svg");
-switchTo( $('#ma'),  "../svg/person.svg");
-switchTo( $('#st'),  "../svg/student.svg");
-switchTo( $('#am'),  "../svg/student.svg");
+switchSVG( $('#Home'),"../svg/uebersicht.svg");
+switchSVG( $('#sp'),  "../svg/schwerpunkt.svg");
+switchSVG( $('#ft'),  "../svg/thema.svg");
+switchSVG( $('#ma'),  "../svg/person.svg");
+switchSVG( $('#st'),  "../svg/student.svg");
+
 
 // TEXT CHANGE
 function textChange( el, prompt ) {
     el.click( function() {
         var oldContent =  $(this).text();
-        var newContent = prompt( prompt );
+        var newContent = window.prompt( prompt );
         if ( newContent ==="" ) { newContent = oldContent; }
         $(this).text( newContent );
         if ( $(this).text() ==="" )  { $(this).text(oldContent) }
     });
 }
-textChange( $('#vorname'), "Bitte Vorname eingeben...");
-textChange( $('#name'),    "Bitte Name eingeben...");
-textChange( $('#nachname'),"Bitte Nachname eingeben...");
-textChange( $('#zimmer'),  "Bitte Zimmernummer eingeben...");
-textChange( $('#tel'),     "Bitte Telefonnummer eingeben...");
 
-
+function assignLabels(){
+    textChange( $('#vorname'), "Bitte Vorname eingeben...");
+    textChange( $('#name'),    "Bitte Name eingeben...");
+    textChange( $('#nachname'),"Bitte Nachname eingeben...");
+    textChange( $('#zimmer'),  "Bitte Zimmernummer eingeben...");
+    textChange( $('#tel'),     "Bitte Telefonnummer eingeben...");
+}
 
 // DROP IMAGE
-FileReaderJS.setupDrop(document.body, {
-    readAsDefault: "DataURL",
-    on: {
-        load: function(e, file) {
-            var img = new Image();
-            $('#img').attr('xlink:href', e.target.result);
-            img.src = e.target.result;
+function imageChange(){
+    FileReaderJS.setupDrop(document.body, {
+        readAsDefault: "DataURL",
+        on: {
+            load: function(e, file) {
+                var img = new Image();
+                $('image').attr('xlink:href', e.target.result);
+                img.src = e.target.result;
+            }
         }
-    }
-});
+    });
+}
+imageChange();
+
 
 // COLORZ
 $('span').click( function() {
