@@ -34,6 +34,8 @@ function assignLabels(){
     textChange( $('#nachname'),"Bitte Nachname eingeben...");
     textChange( $('#zimmer'),  "Bitte Zimmernummer eingeben...");
     textChange( $('#tel'),     "Bitte Telefonnummer eingeben...");
+    textChange( $('#zeile-1'),     "Bitte erste Zeile eingeben...");
+    textChange( $('#zeile-2'),     "Bitte zweite Zeile eingeben...");
 }
 
 // DROP IMAGE
@@ -70,11 +72,11 @@ $('span').click( function() {
 });
 
 // EXPORT PNG > PDF
-$('.fa-download').click( function () {
-    svgAsPngUri( $("#svg")[0], {scale: 4.166}, function(uri) {
+$('.fa-cloud-download').click( function () {
+    svgAsPngUri( $("svg")[0], {scale: 4.166}, function(uri) {
         var img = uri;
         var doc = new jsPDF();
-        doc.addImage(img, 'PNG', 0, 0, 210, 297);
+        doc.addImage(img, 'PNG', 30, 50, 150, 150);
         doc.save('test.pdf');
     });
 });
