@@ -1,7 +1,9 @@
+/*@font-face { font-family: 'Roboto-Black'; src: url('../fonts/Roboto/Roboto-Black.ttf'); }*/
+
 *:not(i) {
     margin: 0;
     padding: 0;
-    font-family:"PT Mono", Gadget, sans-serif;
+
 }
 
 body {
@@ -12,33 +14,8 @@ body {
 svg {
     width: 100%;
     height: auto;
-    margin: 5em 0;
+    margin: 15em 0;
 }
-
-
-
-
-h1 {
-    margin-left: 0.5em;
-    padding-top: 0.5em;
-    font-weight: 200;
-}
-p {
-    margin-left: 1em;
-}
-
-i {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-
-}
-a,i {
-    display: inline-block;
-    width: 1.2em;
-    color: black;
-}
-
 
 .page {
     position: relative;
@@ -48,14 +25,29 @@ a,i {
     box-shadow: 3px 3px 13px #aaa;
     background-color: white;
 }
-.instructions {
-    position: absolute;
-    z-index: 1;
-    top: o;
-    padding: 5px;
-}
+
 .content {
     width: 70%;
     height: auto;
     margin: 0 auto;
+}
+
+/* ALL id's that need to be fat */
+#zeile-1,
+#zeile-2,
+#zeile-3,
+#zeile-4,
+#name,
+#vorname,
+#name,
+#nachname {
+    font-family: 'Roboto' !important;
+    font-weight: 900 !important;
+}
+
+/* ALL id's that need to be thin */
+#zimmer,
+#telefonnummer {
+    font-family: 'Roboto' !important;
+    font-weight: 200 !important;
 }

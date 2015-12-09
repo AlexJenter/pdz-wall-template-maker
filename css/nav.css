@@ -8,6 +8,7 @@ nav {
     text-decoration: none;
     text-indent: 0;
     list-style: none;
+    font-family:"PT Mono", Gadget, sans-serif;
 }
 
 nav .active {

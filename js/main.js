@@ -1,3 +1,8 @@
+// LOAD Home SVG
+$(document).ready( function() {
+    $('.content').load( "../svg/uebersicht.svg" );
+});
+
 // NAV
 function switchSVG( el, path ){
     el.click( function() {
@@ -6,6 +11,7 @@ function switchSVG( el, path ){
         $('.content').load( path, function() {
             assignLabels();
         });
+
     });
 
 }
