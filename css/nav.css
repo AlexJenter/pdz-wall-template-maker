@@ -1,35 +1,47 @@
 nav {
-    display: block;
+    /*display: block;*/
     position: absolute;
     left: 0;
-    right: 0;
+
     top: 0;
     margin: 0 auto;
     text-decoration: none;
     text-indent: 0;
-    list-style: none;
     font-family:"PT Mono", Gadget, sans-serif;
+    line-height: 1.4;
+    width: fit-content;
 }
 
 nav .active {
-    box-shadow: 0 3px 0 #881A51;
+    /*box-shadow: 0 3px 0 #881A51;*/
 }
-
+/*
 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
-}
+}*/
 
-.colors {
-    justify-content: flex-start;
+.color {
+    color: white;
 }
 
 nav li{
-    display: inline-block;
-    font-weight: bold;
-    padding: 1em 0 0.5em;
+    list-style: none;
+    display: block;
+    /*display: inline-block;*/
+
+    font-weight: normal;
+    padding: 0 1em;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+
+}
+
+nav li:nth-child(1) {
+    color: white;
+    background-color: #333;
 }
 
 

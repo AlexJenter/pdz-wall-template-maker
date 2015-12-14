@@ -4,7 +4,7 @@ $(document).ready( function() {
 });
 
 
-// NAV
+// exchange SVG on Click in nac
 function switchSVG( el, path ){
     el.click( function() {
         $('nav .active').removeClass('active');
@@ -66,7 +66,7 @@ imageChange();
 
 
 // COLORZ
-$('.colors span').click( function() {
+$('.color').click( function() {
     var fillColor = $(this).css('background-color');
     $('svg #farbfläche').css({fill: fillColor});
 });
