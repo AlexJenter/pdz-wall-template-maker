@@ -8,7 +8,10 @@
     <script type='text/javascript' src='js/helper/filereader.js'></script>
     <script type="text/javascript" src="js/helper/FileSaver.min.js"></script>
 
+    <script type="text/javascript" src="./js/helper/lodash.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/jsPDF.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/helper/jspdf.plugin.split_text_to_size.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/helper/jspdf.plugin.svgToPdf.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/saveSvgAsPng.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/png_support/png.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/png_support/zlib.js" charset="utf-8"></script>
@@ -22,6 +25,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:700,900,500,400,300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div class="page">
@@ -38,10 +42,13 @@
                 <li id="am">Ämter</li>
             </ul>
             <ul class="colors">
-                <li>Kategorie:  <span title="biomedical"      style="background-color: #005798"></span>
-                                <span title="human behaviour" style="background-color: #1E5F30"></span>
-                                <span title="design new blah" style="background-color: #881A51"></span>
-                                <span title="leadership"      style="background-color: #4B2D87"></span></li>
+                <li>
+                    Kategorie:
+                    <span title="biomedical"      style="background-color: #005798"></span>
+                    <span title="human behaviour" style="background-color: #1E5F30"></span>
+                    <span title="design new blah" style="background-color: #881A51"></span>
+                    <span title="leadership"      style="background-color: #4B2D87"></span>
+                </li>
             </ul>
             <ul>
                 <li>text: klicky klicky!</li>
@@ -50,11 +57,8 @@
                 <li>bild: draggy dropy!</li>
             </ul>
             <ul>
-                <li>download: <i class="fa fa-cloud-download fa-lg"></i></li>
+                <li>download: <i class="saveAsPdf fa fa-cloud-download fa-lg"></i></li>
             </ul>
-            <!-- <ul>
-                <li>drucken: nur in acrobat bei 100%</li>
-            </ul> -->
         </nav>
 
         <div class="content">

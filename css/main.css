@@ -47,7 +47,9 @@ svg {
 
 /* ALL id's that need to be thin */
 #zimmer,
-#telefonnummer {
-    font-family: 'Roboto' !important;
+#telefonnummer,
+#funktion {
+    font-family: 'Roboto Slab' !important;
     font-weight: 200 !important;
+    color: white;
 }
