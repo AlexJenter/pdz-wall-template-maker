@@ -3,7 +3,7 @@
 *:not(i) {
     margin: 0;
     padding: 0;
-
+    list-style: none;
 }
 
 body {
@@ -52,4 +52,13 @@ svg {
     font-family: 'Roboto Slab' !important;
     font-weight: 200 !important;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tutorial {
+    padding: 3em 1em;
 }
