@@ -23,9 +23,12 @@ switchSVG( $('#st'),  "../svg/student.svg");
 
 
 // TEXT CHANGE
-function textChange( el, prompt ) {
+function textChange( el, alignment, prompt ) {
+    if( alignment ===  "middle") {
+        el.attr("text-anchor", "middle");
+    }
     el.click( function() {
-        var newContent = window.prompt( prompt );
+        var newContent = window.prompt( prompt, el.text());
         if ( !newContent ) {
             return;
         }
@@ -35,16 +38,20 @@ function textChange( el, prompt ) {
 
 
 function assignLabels(){
-    textChange( $('svg #vorname'),  "Bitte Vorname eingeben...");
-    textChange( $('svg #name'),     "Bitte Name eingeben...");
-    textChange( $('svg #nachname'), "Bitte Nachname eingeben...");
-    textChange( $('svg #zimmer'),   "Bitte Zimmernummer eingeben...");
-    textChange( $('svg #funktion'), "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
-    textChange( $('svg #tel'),      "Bitte Telefonnummer eingeben...");
-    textChange( $('svg #zeile-1'),  "Bitte erste Zeile eingeben...");
-    textChange( $('svg #zeile-2'),  "Bitte zweite Zeile eingeben...");
-    textChange( $('svg #zeile-3'),  "Bitte dritte Zeile eingeben...");
-    textChange( $('svg #zeile-4'),  "Bitte vierte Zeile eingeben...");
+    textChange( $('svg #vorname'),  "middle", "Bitte Vorname eingeben...");
+    textChange( $('svg #erste'),    "middle", "Bitte Funktion eingeben...");
+    textChange( $('svg #zweite'),   "middle", "Bitte Funktion eingeben...");
+    textChange( $('svg #name'),     "middle", "Bitte Name eingeben...");
+    textChange( $('svg #nachname'), "middle", "Bitte Nachname eingeben...");
+    textChange( $('svg #zimmer'),   "middle", "Bitte Zimmernummer eingeben...");
+    textChange( $('svg #funktion'), "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
+    textChange( $('svg #semester'), "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
+    textChange( $('svg #master'),   "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
+    textChange( $('svg #tel'),      "middle", "Bitte Telefonnummer eingeben...");
+    textChange( $('svg #zeile-1'),  "left",   "Bitte erste Zeile eingeben...");
+    textChange( $('svg #zeile-2'),  "left",   "Bitte zweite Zeile eingeben...");
+    textChange( $('svg #zeile-3'),  "left",   "Bitte dritte Zeile eingeben...");
+    textChange( $('svg #zeile-4'),  "left",   "Bitte vierte Zeile eingeben...");
 }
 
 

@@ -8,6 +8,7 @@
 <rect id="farbfläche" x="28.35" y="255.12" style="fill:#881A51;" width="368.5" height="113.39"/>
 <path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,325.98c-62.62,0-113.39-50.76-113.39-113.38
 	S149.98,99.21,212.6,99.21s113.38,50.77,113.38,113.39S275.22,325.98,212.6,325.98z"/>
-<text id="funktion" transform="matrix(1 0 0 1 175.989 288.0596)"><tspan x="0" y="0" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Masterthesis</tspan><tspan x="-9.47" y="14.4" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Semesterproject</tspan></text>
-<text id="name" transform="matrix(1 0 0 1 158.2955 273.8057)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:16px;">Michael Tester</text>
+<text id="name" transform="matrix(1 0 0 1 212.5986 273.4594)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:16px;">Michael Tester</text>
+<text id="semester" transform="matrix(1 0 0 1 212.5948 286.9625)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Masterthesis</text>
+<text id="master" transform="matrix(1 0 0 1 212.5949 301.1357)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Semesterproject</text>
 </svg>

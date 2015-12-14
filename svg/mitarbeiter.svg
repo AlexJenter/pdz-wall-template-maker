@@ -5,10 +5,12 @@
 	 viewBox="0 0 425.2 425.2" xml:space="preserve">
 <image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="../img/katze_weiss.png"  transform="matrix(0.7985 0 0 0.7985 52.905 52.9035)">
 </image>
+
 <rect id="farbfläche" x="56.75" y="284.18" style="fill:#881A51;" width="311.71" height="128.39"/>
+
 <path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,368.5c-86.11,0-155.91-69.8-155.91-155.9
 	c0-86.11,69.8-155.91,155.91-155.91c86.1,0,155.9,69.8,155.9,155.91C368.5,298.7,298.7,368.5,212.6,368.5z"/>
-<text id="telefonnummer" transform="matrix(1 0 0 1 163.5547 343.4744)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">+41 44 632 38 53   </text>
-<text id="zimmer" transform="matrix(1 0 0 1 184.463 329.0319)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">LEE O 202</text>
-<text id="name" transform="matrix(1 0 0 1 112.8906 310.6746)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Quentin Lohmeyer</text>
+<text id="name" transform="matrix(1 0 0 1 212.5996 308.1415)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Quentin Lohmeyer</text>
+<text id="zimmer" transform="matrix(1 0 0 1 212.5997 325.5492)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">LEE O 202</text>
+<text id="tel" transform="matrix(1 0 0 1 212.5984 342.557)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">+41 44 632 38 53</text>
 </svg>

@@ -5,10 +5,10 @@
     <title>theWall</title>
     <script type="text/javascript" src="js/helper/jquery.min.js"></script>
     <script type="text/javascript" src="js/helper/jquery.outerhtml.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type='text/javascript' src='js/helper/filereader.js'></script>
     <script type="text/javascript" src="js/helper/FileSaver.min.js"></script>
 
-    <script type="text/javascript" src="./js/helper/lodash.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/jsPDF.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/jspdf.plugin.split_text_to_size.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/helper/jspdf.plugin.svgToPdf.js" charset="utf-8"></script>
@@ -30,23 +30,35 @@
 <body>
     <div class="page">
         <nav>
-            <ul class="home">
-                <li id="Home" class="active">Home</li>
+            <script>
+            $(function() {
+                $( "#menu" ).menu();
+            });
+            </script>
+            <ul  id="menu"class="home">
+                <li id="Home" class="nav-negative">Home</li>
                 <li id="sp">Forschungsschwerpunkte</li>
                 <li id="ft">Forschungsthemen</li>
                 <li id="ma">Mitarbeiter</li>
                 <li id="st">Studenten</li>
-                <li id="am">Ämter</li>
+                <li id="am">Amt
+                    <ul>
+                        <li>software</li>
+                        <li>hardware</li>
+                        <li>team</li>
+                        <li>lehre</li>
+                    </ul>
+                </li>
                 <li class="color" style="background-color: #005798">biomedical</li>
                 <li class="color" style="background-color: #1E5F30">human behaviour</li>
                 <li class="color" style="background-color: #881A51">design for new technologies</li>
                 <li class="color" style="background-color: #4B2D87">leadership</li>
             </ul>
             <ul>
-                <li class="saveAsPdf"><i class="fa fa-cloud-download"></i> Download</li>
+                <li class="saveAsPdf nav-negative"><i class="fa fa-cloud-download"></i> Download</li>
             </ul>
             <ul>
-                <a href="help.html"><li class="help"><i class=" fa fa-question-circle"></i></i> Tutorial</li></a>
+                <a href="help.html"><li class="help nav-negative"><i class=" fa fa-question-circle"></i></i> Tutorial</li></a>
             </ul>
         </nav>
 

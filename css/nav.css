@@ -12,9 +12,7 @@ nav {
     width: fit-content;
 }
 
-nav .active {
-    /*box-shadow: 0 3px 0 #881A51;*/
-}
+
 /*
 ul {
     display: flex;
@@ -39,10 +37,11 @@ nav li{
 
 }
 
-nav li:nth-child(1) {
+.nav-negative {
     color: white;
     background-color: #333;
 }
+
 
 
 
