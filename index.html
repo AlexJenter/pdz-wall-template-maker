@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>theWall</title>
@@ -26,39 +26,46 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:700,900,500,400,300,100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
     <div class="page">
         <nav>
-            <script>
-            $(function() {
-                $( "#menu" ).menu();
-            });
+            <script type="text/javascript">
+                $(function() {
+                    $( "#menu" ).menu();
+                });
             </script>
-            <ul  id="menu"class="home">
-                <li id="Home" class="nav-negative">Home</li>
-                <li id="sp">Forschungsschwerpunkte</li>
-                <li id="ft">Forschungsthemen</li>
-                <li id="ma">Mitarbeiter</li>
-                <li id="st">Studenten</li>
-                <li id="am">Amt
-                    <ul>
-                        <li>software</li>
-                        <li>hardware</li>
-                        <li>team</li>
-                        <li>lehre</li>
+            <ul  id="menu">
+                <li>home</li>
+                <li>choose template
+                    <ul class="templates">
+                        <li class="template" id="sp">domain</li>
+                        <li class="template" id="ft">topic</li>
+                        <li class="template" id="ma">staff</li>
+                        <li class="template" id="st">student</li>
+                        <li class="template" id="am">jobs
+                        <ul>
+                            <li id="physical"  class="jobs">physical Tools</li>
+                            <li id="digital"   class="jobs">digital Tools</li>
+                            <li id="teaching"  class="jobs">teaching</li>
+                            <li id="rooms"     class="jobs">rooms</li>
+                            <li id="documents" class="jobs">templates &amp; documents</li>
+                        </ul>
+                        </li>
                     </ul>
                 </li>
-                <li class="color" style="background-color: #005798">biomedical</li>
-                <li class="color" style="background-color: #1E5F30">human behaviour</li>
-                <li class="color" style="background-color: #881A51">design for new technologies</li>
-                <li class="color" style="background-color: #4B2D87">leadership</li>
-            </ul>
-            <ul>
-                <li class="saveAsPdf nav-negative"><i class="fa fa-cloud-download"></i> Download</li>
-            </ul>
-            <ul>
-                <a href="help.html"><li class="help nav-negative"><i class=" fa fa-question-circle"></i></i> Tutorial</li></a>
+                <li>choose domain
+                    <ul>
+                        <li class="color" style="background-color: #005798">biomedical</li>
+                        <li class="color" style="background-color: #1E5F30">human behaviour</li>
+                        <li class="color" style="background-color: #881A51">design for new technologies</li>
+                        <li class="color" style="background-color: #4B2D87">team &amp; support</li>
+                    </ul>
+                </li>
+
+                <li class="saveAsPdf"><i class="fa fa-cloud-download"></i> download</li>
+                <li class="help"><i class=" fa fa-question-circle"></i> tutorial<a id="help-link" href="/help.html"></a></li>
             </ul>
         </nav>
 
