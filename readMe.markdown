@@ -10,7 +10,7 @@ The need for this Piece of Software was the lack of possibilitys to stack graphi
 Templates are produced with Adobe Illustrator and saved as SVG, after that they shouldnt be touched, all of the manipilation is handeld by jquery and Javasript. For this to work the SVG has to be fitted with the correct **id** Attributes in Illustrator. Html id's van be specified through Illlustrators layers panel. In order to work predictable they must be singular or Ai will suffix them invisibally. Then you would have to go in to the SVG and change that bck by hand or change the name back and forth to get your result as expected.
 
 
-![](help/illu_layers.tif)
+![](./help/illu_layers.tif)
 
 The Names of the layers are the id's in the svg document.  
 These are triggerd by the Javascript.
