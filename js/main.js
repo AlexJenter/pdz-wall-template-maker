@@ -15,25 +15,23 @@ $(".help").click(function() {
 // exchange SVG on Click in nac
 function switchSVG( el, path ){
     el.click( function() {
-        $('nav .active').removeClass('active');
-        $(this).addClass('active');
         $('.content').load( path, function() {
             assignLabels();
         });
     });
 }
 
-switchSVG( $('#Home'),"../svg/uebersicht.svg");
-switchSVG( $('#sp'),  "../svg/forschungsschwerpunkt.svg");
-switchSVG( $('#ft'),  "../svg/forschungsthema.svg");
-switchSVG( $('#ma'),  "../svg/mitarbeiter.svg");
-switchSVG( $('#st'),  "../svg/student.svg");
+switchSVG( $('#Home'),      "../svg/uebersicht.svg");
+switchSVG( $('#sp'),        "../svg/forschungsschwerpunkt.svg");
+switchSVG( $('#ft'),        "../svg/forschungsthema.svg");
+switchSVG( $('#ma'),        "../svg/mitarbeiter.svg");
+switchSVG( $('#st'),        "../svg/student.svg");
 switchSVG( $('#physical'),  "../svg/amt-physical.svg");
-switchSVG( $('#digital'),  "../svg/amt-digital.svg");
+switchSVG( $('#digital'),   "../svg/amt-digital.svg");
 switchSVG( $('#teaching'),  "../svg/amt-teaching.svg");
-switchSVG( $('#rooms'),  "../svg/amt-rooms.svg");
-switchSVG( $('#team'),  "../svg/amt-team.svg");
-switchSVG( $('#documents'),  "../svg/amt-documents.svg");
+switchSVG( $('#rooms'),     "../svg/amt-rooms.svg");
+switchSVG( $('#team'),      "../svg/amt-team.svg");
+switchSVG( $('#documents'), "../svg/amt-documents.svg");
 
 
 // TEXT CHANGE

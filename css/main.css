@@ -40,7 +40,8 @@ svg {
 #name,
 #vorname,
 #name,
-#nachname {
+#nachname,
+#job {
     font-family: 'Roboto' !important;
     font-weight: 900 !important;
 }
@@ -52,6 +53,11 @@ svg {
     font-family: 'Roboto Slab' !important;
     font-weight: 200 !important;
     color: white;
+}
+
+/* All id's that need fontawesome */
+#icon {
+    font-family: 'font-awesome';
 }
 
 a {
