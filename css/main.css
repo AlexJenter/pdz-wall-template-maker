@@ -53,7 +53,9 @@ svg {
 /* ALL id's that need to be thin */
 #location,
 #tel,
-#funktion {
+#funktion,
+#master,
+#semester {
     font-family: 'Roboto Slab' !important;
     font-weight: 300; !important;
     color: white;
