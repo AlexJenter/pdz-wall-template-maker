@@ -50,21 +50,20 @@ function textChange( el, alignment, prompt ) {
 
 
 function assignLabels(){
-    textChange( $('svg #vorname'),  "middle", "Bitte Vorname eingeben...");
-    textChange( $('svg #erste'),    "middle", "Bitte Funktion eingeben...");
-    textChange( $('svg #zweite'),   "middle", "Bitte Funktion eingeben...");
-    textChange( $('svg #name'),     "middle", "Bitte Name eingeben...");
-    textChange( $('svg #nachname'), "middle", "Bitte Nachname eingeben...");
-    textChange( $('svg #zimmer'),   "middle", "Bitte Zimmernummer eingeben...");
-    textChange( $('svg #funktion'), "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
-    textChange( $('svg #semester'), "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
-    textChange( $('svg #master'),   "middle", "Bitte Funktion eingeben...( Semesterarbeit / MA Thesis )");
-    textChange( $('svg #tel'),      "middle", "Bitte Telefonnummer eingeben...");
-    textChange( $('svg #zeile-1'),  "left",   "Bitte erste Zeile eingeben...");
-    textChange( $('svg #zeile-2'),  "left",   "Bitte zweite Zeile eingeben...");
-    textChange( $('svg #zeile-3'),  "left",   "Bitte dritte Zeile eingeben...");
-    textChange( $('svg #zeile-4'),  "left",   "Bitte vierte Zeile eingeben...");
-    textChange( $('svg #job'),      "middle", "Bitte job Zeile eingeben...");
+    textChange( $('svg #l-erste'),  "left",   "please enter first line...");
+    textChange( $('svg #l-zweite'), "left",   "please enter second line...");
+    textChange( $('svg #l-dritte'), "left",   "please enter third line...");
+    textChange( $('svg #l-vierte'), "left",   "please enter fourth line...");
+    textChange( $('svg #name'),     "middle", "please enter full name...");
+    textChange( $('svg #zimmer'),   "middle", "please enter Zimmernummer eingeben...");
+    textChange( $('svg #erste'),    "middle", "please enter first line...");
+    textChange( $('svg #zweite'),   "middle", "please enter second line...");
+    textChange( $('svg #tel'),      "middle", "please enter enter phone number ...", "+41 XX XXX XX XX");
+    textChange( $('svg #location'), "middle", "please enter enter room number ...", "LEE O ");
+    textChange( $('svg #master'),   "middle", "please enter Funktion...", "Semesterarbeit / MA Thesis");
+    textChange( $('svg #semester'), "middle", "please enter Funktion...", "Semesterarbeit / MA Thesis");
+    textChange( $('svg #funktion'), "middle", "please enter Funktion...", "job name");
+    textChange( $('svg #job'),      "middle", "please enter job...");
 }
 
 
