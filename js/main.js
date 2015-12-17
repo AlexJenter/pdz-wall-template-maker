@@ -22,25 +22,25 @@ function switchSVG( el, path ){
 }
 
 switchSVG( $('#Home'),      "../svg/uebersicht.svg");
-switchSVG( $('#sp'),        "../svg/forschungsschwerpunkt.svg");
-switchSVG( $('#ft'),        "../svg/forschungsthema.svg");
-switchSVG( $('#ma'),        "../svg/mitarbeiter.svg");
-switchSVG( $('#st'),        "../svg/student.svg");
-switchSVG( $('#physical'),  "../svg/amt-physical.svg");
-switchSVG( $('#digital'),   "../svg/amt-digital.svg");
-switchSVG( $('#teaching'),  "../svg/amt-teaching.svg");
-switchSVG( $('#rooms'),     "../svg/amt-rooms.svg");
-switchSVG( $('#team'),      "../svg/amt-team.svg");
-switchSVG( $('#documents'), "../svg/amt-documents.svg");
+switchSVG( $('#domain'),    "../svg/domain.svg");
+switchSVG( $('#topic'),     "../svg/topic.svg");
+switchSVG( $('#staff'),     "../svg/staff.svg");
+switchSVG( $('#student'),   "../svg/student.svg");
+switchSVG( $('#physical'),  "../svg/job-physical.svg");
+switchSVG( $('#digital'),   "../svg/job-digital.svg");
+switchSVG( $('#teaching'),  "../svg/job-teaching.svg");
+switchSVG( $('#rooms'),     "../svg/job-rooms.svg");
+switchSVG( $('#team'),      "../svg/job-team.svg");
+switchSVG( $('#documents'), "../svg/job-documents.svg");
 
 
 // TEXT CHANGE
-function textChange( el, alignment, prompt ) {
+function textChange( el, alignment, prompt, defaultContent ) {
     if( alignment ===  "middle") {
         el.attr("text-anchor", "middle");
     }
     el.click( function() {
-        var newContent = window.prompt( prompt, el.text());
+        var newContent = window.prompt( prompt, defaultContent );
         if ( !newContent ) {
             return;
         }
@@ -68,7 +68,7 @@ function assignLabels(){
 
 
 // DROP IMAGE
-function imageChange(){
+(function imageChange(){
     FileReaderJS.setupDrop(document.body, {
         readAsDefault: "DataURL",
         on: {
@@ -79,9 +79,9 @@ function imageChange(){
             }
         }
     });
-}
+})();
 
-imageChange();
+// imageChange();
 
 
 // COLORZ
@@ -97,40 +97,14 @@ $('.saveAsPdf').click( function () {
         var doc = new jsPDF();
 
         // position marks for circle cutter
-        doc.setLineWidth(0.5);
-        doc.line(105, 10, 105, 30);
-        doc.line(105, 267, 105, 287);
-        doc.line(100, 20, 110, 20);
-        doc.line(100, 277, 110, 277);
+        doc.setLineWidth(0.2);
+        doc.line(105, 10, 105, 257);
+        doc.ellipse(105, 15, 3, 3);
+        doc.line(100, 15, 110, 15);
+        doc.line(100, 247, 110, 247);
 
         // positioning of the generated PNG
-        doc.addImage(img, 'PNG', 30, 50, 150, 150);
+        doc.addImage(img, 'PNG', 30, 75, 150, 150);
         doc.save('test.pdf');
     });
 });
-
-/*
-// EXPORT PNG > PDF
-$('.saveAsPdf').click( function () {
-    svgAsPngUri( $("svg")[0], {scale: 4.166}, function(uri) {
-        var img = uri;
-        var doc = new jsPDF();
-        doc.addImage(img, 'PNG', 30, 50, 150, 150);
-        doc.save('test.pdf');
-    });
-});
-*/
-
-// EXPORT PNG > PDF
-// $('.saveAsPdf').click( function () {
-//
-//     var doc = new jsPDF();
-//     svgElementToPdf($("svg")[0],doc,{ x_offset: 25, y_offset: 50 });
-//
-//     doc.save('test.pdf');
-//
-//
-//
-//
-//     svgElementToPdf(0,0,0);
-// });
