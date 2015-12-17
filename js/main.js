@@ -91,6 +91,24 @@ $('.color').click( function() {
     $('svg #farbfläche').css({fill: fillColor});
 });
 
+// PDF generation
+$('.saveAsPdf').click( function () {
+    svgAsPngUri( $("svg")[0], {scale: 4.166}, function(uri) {
+        var img = uri;
+        var doc = new jsPDF();
+
+        // position marks for circle cutter
+        doc.setLineWidth(0.5);
+        doc.line(105, 10, 105, 30);
+        doc.line(105, 267, 105, 287);
+        doc.line(100, 20, 110, 20);
+        doc.line(100, 277, 110, 277);
+
+        // positioning of the generated PNG
+        doc.addImage(img, 'PNG', 30, 50, 150, 150);
+        doc.save('test.pdf');
+    });
+});
 
 /*
 // EXPORT PNG > PDF
@@ -117,11 +135,3 @@ $('.saveAsPdf').click( function () {
 //
 //     svgElementToPdf(0,0,0);
 // });
-$('.saveAsPdf').click( function () {
-    svgAsPngUri( $("svg")[0], {scale: 4.166}, function(uri) {
-        var img = uri;
-        var doc = new jsPDF();
-        doc.addImage(img, 'PNG', 30, 50, 150, 150);
-        doc.save('test.pdf');
-    });
-});
