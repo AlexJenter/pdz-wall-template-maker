@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="425.2px" height="425.2px" viewBox="-84 208.7 425.2 425.2" style="enable-background:new -84 208.7 425.2 425.2;"
-	 xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#F47F20;}
-	.st1{fill:#FFFFFF;}
-	.st2{font-family:'Roboto-Black';}
-	.st3{font-size:24px;}
-	.st4{enable-background:new    ;}
-</style>
-<circle class="st0" cx="128.6" cy="421.3" r="113.4"/>
-<text id="job" transform="matrix(1 0 0 1 128.5998 461.6626)" class="st1 st2 st3">Rooms</text>
-<g class="st4">
-	<path class="st1" d="M173.2,367.1v27.2c0,1.4-0.6,2.4-1.7,3.2l-40.8,27.2c-0.7,0.4-1.4,0.6-2.1,0.6s-1.4-0.2-2.1-0.6l-40.8-27.2
-		c-1.1-0.8-1.7-1.8-1.7-3.2v-27.2c0-1.4,0.6-2.4,1.7-3.2l40.8-27.2c0.7-0.4,1.4-0.6,2.1-0.6s1.4,0.2,2.1,0.6l40.8,27.2
-		C172.7,364.7,173.2,365.8,173.2,367.1z M91.6,387.2l9.6-6.4l-9.6-6.4V387.2z M108.1,376.1l16.6-11.1v-17.9l-30,20L108.1,376.1z
-		 M94.7,394.3l30,20v-17.9l-16.6-11.1L94.7,394.3z M128.6,389.8l13.5-9.1l-13.5-9.1l-13.5,9.1L128.6,389.8z M149.1,376.1l13.4-9
-		l-30-20V365L149.1,376.1z M132.4,414.4l30-20l-13.4-9l-16.6,11.1V414.4z M155.9,380.7l9.6,6.4v-12.9L155.9,380.7z"/>
-</g>
+	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
+	>
+<circle style="fill:#F47F20;" cx="212.6" cy="212.6" r="121.9"/>
+<text id="job" transform="matrix(1 0 0 1 212.5998 252.9726)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Rooms</text>
+<text transform="matrix(1 0 0 1 167.9673 203.919)" style="fill:#FFFFFF; font-family:'FontAwesome'; font-size:89.265px;"></text>
 </svg>
