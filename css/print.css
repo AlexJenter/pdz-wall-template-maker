@@ -1,4 +1,4 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif !important;
@@ -21,10 +21,10 @@ svg {
 .template {
     max-width: 960px;
     margin: 0 auto;
-    box-shadow: 3px 3px 13px #aaa;
+    /*box-shadow: 3px 3px 13px #aaa;*/
     background-color: white;
 }
 
 #img {
     text-align: center;
-}*/
+}

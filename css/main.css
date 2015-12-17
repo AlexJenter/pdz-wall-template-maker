@@ -33,18 +33,16 @@ svg {
 }
 
 /* ALL id's that need to be fat */
-
+#zeile-1,
+#zeile-2,
+#zeile-3,
+#zeile-4,
+#erste,
+#zweite,
+#name,
 #vorname,
 #name,
 #nachname,
-#erste,
-#zweite,
-#dritte,
-#vierte,
-#l-erste,
-#l-zweite,
-#l-dritte,
-#l-vierte,
 #job {
     font-family: 'Roboto' !important;
     font-weight: 900 !important;
