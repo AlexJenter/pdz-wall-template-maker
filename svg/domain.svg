@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="domain" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
-	>
-<rect id="farbfläche" x="14.2" y="14.2" style="fill:#881A51;" width="396.9" height="396.9"/>
-<path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,396.8c-101.8,0-184.2-82.5-184.2-184.2
-	S110.8,28.3,212.6,28.3s184.2,82.5,184.2,184.2S314.4,396.8,212.6,396.8z"/>
-<text id="l-vierte" transform="matrix(1 0 0 1 84.1114 314.7144)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:44px;">technologies</text>
-<text id="l-dritte" transform="matrix(1 0 0 1 84.1114 255.6404)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:44px;">new</text>
-<text id="l-zweite" transform="matrix(1 0 0 1 84.1114 196.567)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:44px;">for</text>
-<text id="l-erste" transform="matrix(1 0 0 1 84.1112 137.4931)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:44px;">design</text>
+	 viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#881A51;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Roboto-Black';}
+	.st3{font-size:44px;}
+</style>
+<rect id="farbfläche" x="14.2" y="14.2" class="st0" width="396.9" height="396.9"/>
+<path id="maske" class="st1" d="M0,0v425.2h425.2V0H0z M212.6,405.4c-106.5,0-192.8-86.3-192.8-192.8S106.1,19.8,212.6,19.8
+	s192.8,86.3,192.8,192.8S319.1,405.4,212.6,405.4z"/>
+<text id="l-vierte" transform="matrix(1 0 0 1 84.1114 314.7144)" class="st1 st2 st3">technologies</text>
+<text id="l-dritte" transform="matrix(1 0 0 1 84.1114 255.6404)" class="st1 st2 st3">new</text>
+<text id="l-zweite" transform="matrix(1 0 0 1 84.1114 196.567)" class="st1 st2 st3">for</text>
+<text id="l-erste" transform="matrix(1 0 0 1 84.1112 137.4931)" class="st1 st2 st3">design</text>
 </svg>

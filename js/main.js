@@ -98,10 +98,10 @@ $('.saveAsPdf').click( function () {
 
         // position marks for circle cutter
         doc.setLineWidth(0.2);
-        doc.ellipse(105, 15, 3, 3);
+        doc.ellipse(105, 25, 3, 3);
         doc.line(105, 10, 105, 257);
-        doc.line(95, 15, 115, 15);
-        doc.line(100, 247, 110, 247);
+        doc.line(95, 25, 115, 25);
+        doc.line(100, 248, 110, 248);
 
         // positioning of the generated PNG
         doc.addImage(img, 'PNG', 30, 75, 150, 150);

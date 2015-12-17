@@ -51,11 +51,11 @@ svg {
 }
 
 /* ALL id's that need to be thin */
-#zimmer,
+#location,
 #tel,
 #funktion {
     font-family: 'Roboto Slab' !important;
-    font-weight: 200 !important;
+    font-weight: 300; !important;
     color: white;
 }
 
