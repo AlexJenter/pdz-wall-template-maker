@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="mitarbeiter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;"
+	 xml:space="preserve">
+<image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="../img/katze_weiss.png"  transform="matrix(0.7985 0 0 0.7985 52.905 52.9035)">
+</image>
+<g id="farbfläche">
+	<g>
+		<g>
+			<rect x="56.7" y="284.2" style="fill:#881A51;" width="311.7" height="128.4"/>
+		</g>
+	</g>
+</g>
+<path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,368.5c-86.1,0-155.9-69.8-155.9-155.9
+	c0-86.1,69.8-155.9,155.9-155.9c86.1,0,155.9,69.8,155.9,155.9C368.5,298.7,298.7,368.5,212.6,368.5z"/>
+<text id="name" transform="matrix(1 0 0 1 212.5996 308.1415)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Quentin Lohmeyer</text>
+<text id="location" transform="matrix(1 0 0 1 212.5997 325.5492)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">LEE O 202</text>
+<text id="tel" transform="matrix(1 0 0 1 212.5984 342.557)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">+41 44 632 38 53   </text>
+</svg>
