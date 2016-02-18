@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
-	>
-<circle style="fill:#F47F20;" cx="212.6" cy="212.6" r="121.9"/>
-<text id="job" transform="matrix(1 0 0 1 212.5998 252.9726)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Digital tools</text>
-<text transform="matrix(1 0 0 1 164.7794 203.919)" style="fill:#FFFFFF; font-family:'FontAwesome'; font-size:89.265px;"></text>
+	 width="425.199px" height="425.199px" viewBox="0 0 425.199 425.199" enable-background="new 0 0 425.199 425.199"
+	 xml:space="preserve">
+<path fill="#F47F20" d="M331.655,212.599c0,65.753-53.302,119.055-119.056,119.055c-65.752,0-119.055-53.301-119.055-119.055
+	c0-65.752,53.302-119.055,119.055-119.055C278.353,93.543,331.655,146.846,331.655,212.599"/>
+<text id="job" transform="matrix(1 0 0 1 212.5994 252.9729)" fill="#FFFFFF" font-family="'Roboto-Black'" font-size="24">Digital tool </text>
+<path fill="#FFFFFF" d="M252.45,194.355h7.97v4.782c0,1.329-0.78,2.458-2.341,3.388c-1.562,0.931-3.438,1.396-5.629,1.396h-79.7
+	c-2.192,0-4.068-0.465-5.629-1.396c-1.562-0.93-2.342-2.059-2.342-3.388v-4.782h7.971H252.45z M185.501,191.167
+	c-2.192,0-4.068-0.78-5.629-2.341c-1.562-1.562-2.342-3.438-2.342-5.63v-35.067c0-2.192,0.78-4.068,2.342-5.629
+	c1.561-1.562,3.437-2.341,5.629-2.341h54.196c2.191,0,4.067,0.78,5.63,2.341c1.561,1.561,2.341,3.437,2.341,5.629v35.067
+	c0,2.192-0.78,4.068-2.341,5.63c-1.562,1.561-3.438,2.341-5.63,2.341H185.501z M183.908,148.128v35.067
+	c0,0.433,0.156,0.807,0.473,1.121c0.314,0.316,0.688,0.474,1.121,0.474h54.197c0.431,0,0.805-0.157,1.12-0.474
+	c0.314-0.314,0.474-0.688,0.474-1.121v-35.067c0-0.432-0.158-0.805-0.474-1.121c-0.315-0.315-0.689-0.473-1.12-0.473h-54.197
+	c-0.433,0-0.807,0.157-1.121,0.473C184.065,147.324,183.908,147.697,183.908,148.128z M216.585,199.137
+	c0.53,0,0.797-0.265,0.797-0.797c0-0.531-0.267-0.797-0.797-0.797h-7.97c-0.532,0-0.798,0.266-0.798,0.797
+	c0,0.532,0.266,0.797,0.798,0.797H216.585z"/>
 </svg>
