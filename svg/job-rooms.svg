@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
-	>
-<circle style="fill:#F47F20;" cx="212.6" cy="212.6" r="121.9"/>
-<text id="job" transform="matrix(1 0 0 1 212.5998 252.9726)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Rooms</text>
-<text transform="matrix(1 0 0 1 167.9673 203.919)" style="fill:#FFFFFF; font-family:'FontAwesome'; font-size:89.265px;"></text>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="425.199px" height="425.199px" viewBox="0 0 425.199 425.199" enable-background="new 0 0 425.199 425.199"
+	 xml:space="preserve">
+<path id="circle" fill="#F47F20" d="M331.655,212.599c0,65.753-53.303,119.055-119.056,119.055
+	c-65.752,0-119.055-53.302-119.055-119.055c0-65.752,53.303-119.055,119.055-119.055
+	C278.353,93.543,331.655,146.847,331.655,212.599"/>
+<text id="job" transform="matrix(1 0 0 1 212.5994 252.9729)" fill="#FFFFFF" font-family="'Roboto-Black'" font-size="24">Rooms</text>
+<path id="icon" fill="#FFFFFF" d="M257.232,158.439v27.198c0,1.362-0.563,2.424-1.692,3.188l-40.797,27.197
+	c-0.697,0.433-1.412,0.647-2.144,0.647c-0.73,0-1.444-0.216-2.142-0.647l-40.797-27.197c-1.13-0.765-1.694-1.826-1.694-3.188
+	v-27.198c0-1.36,0.563-2.423,1.694-3.188l40.797-27.198c0.696-0.431,1.411-0.647,2.142-0.647c0.731,0,1.445,0.217,2.144,0.647
+	l40.797,27.198C256.668,156.016,257.232,157.078,257.232,158.439z M175.639,178.464l9.614-6.426l-9.614-6.427V178.464z
+	 M192.126,167.406l16.638-11.107v-17.883l-30.037,20.024L192.126,167.406z M178.727,185.638l30.037,20.025V187.78l-16.638-11.107
+	L178.727,185.638z M212.6,181.104l13.549-9.065l-13.549-9.066l-13.549,9.066L212.6,181.104z M233.072,167.406l13.4-8.966
+	l-30.037-20.024v17.883L233.072,167.406z M216.436,205.663l30.037-20.025l-13.399-8.966l-16.638,11.107V205.663L216.436,205.663z
+	 M239.947,172.039l9.613,6.426v-12.853L239.947,172.039z"/>
 </svg>

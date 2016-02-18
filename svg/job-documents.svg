@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
-	>
-<circle style="fill:#F47F20;" cx="212.6" cy="212.6" r="121.9"/>
-<text transform="matrix(1 0 0 1 212.5998 252.9726)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">Digital tools</text>
-<text transform="matrix(1 0 0 1 174.3438 203.919)" style="fill:#FFFFFF; font-family:'FontAwesome'; font-size:89.265px;"></text>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="425.199px" height="425.199px" viewBox="0 0 425.199 425.199" enable-background="new 0 0 425.199 425.199"
+	 xml:space="preserve">
+<path fill="#F47F20" d="M331.655,212.599c0,65.753-53.302,119.055-119.056,119.055c-65.752,0-119.055-53.301-119.055-119.055
+	c0-65.752,53.302-119.055,119.055-119.055C278.353,93.543,331.655,146.846,331.655,212.599"/>
+<text id="job" transform="matrix(1 0 0 1 212.5994 252.9729)" fill="#FFFFFF" font-family="'Roboto-Black'" font-size="24">Docs &amp; Templates</text>
+<path fill="#FFFFFF" d="M218.977,154.504c0,1.329,0.464,2.458,1.396,3.387c0.93,0.93,2.059,1.396,3.388,1.396h27.098v52.603
+	c0,1.328-0.465,2.458-1.395,3.387c-0.931,0.931-2.061,1.396-3.388,1.396h-66.948c-1.329,0-2.458-0.465-3.389-1.396
+	c-0.93-0.93-1.395-2.06-1.395-3.387v-79.701c0-1.328,0.465-2.457,1.395-3.387c0.931-0.929,2.06-1.396,3.389-1.396h39.851
+	L218.977,154.504L218.977,154.504z M225.353,152.91v-23.513c0.729,0.466,1.327,0.931,1.793,1.396l20.324,20.324
+	c0.464,0.465,0.929,1.062,1.396,1.793H225.353L225.353,152.91z"/>
 </svg>
