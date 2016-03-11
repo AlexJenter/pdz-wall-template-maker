@@ -4,7 +4,7 @@
 <svg version="1.1" id="mitarbeiter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" width="425.199px" height="425.199px" viewBox="0 0 425.199 425.199" enable-background="new 0 0 425.199 425.199"
 	 xml:space="preserve">
-<image overflow="visible" enable-background="new    " width="400" height="400" id="bild" xlink:href="../img/katze_weiss.png"  transform="matrix(0.7643 0 0 0.7643 59.7385 59.7375)">
+<image overflow="visible" enable-background="new    " width="400" height="400" id="bild" xlink:href="./img/katze_weiss.png"  transform="matrix(0.7643 0 0 0.7643 59.7385 59.7375)">
 </image>
 <rect id="farbfläche" x="70.108" y="278.043" fill="#881A51" width="284.894" height="117.356"/>
 <path id="maske" fill="#FFFFFF" d="M18.283,18.283v388.633h388.633V18.283H18.283z M212.6,362.862

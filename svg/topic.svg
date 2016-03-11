@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
 	>
-<image style="overflow:visible;" width="479" height="479" id="bild" xlink:href="../img/eye-03.jpg"  transform="matrix(0.8167 0 0 0.8167 17.0079 17.0079)">
+<image style="overflow:visible;" width="479" height="479" id="bild" xlink:href="./img/eye-03.jpg"  transform="matrix(0.8167 0 0 0.8167 17.0079 17.0079)">
 </image>
 <rect id="farbfläche" x="28.3" y="283.5" style="fill:#881A51;" width="368.5" height="127.6"/>
 <text id="erste" transform="matrix(1 0 0 1 212.5985 322.3145)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:24px;">line one</text>
