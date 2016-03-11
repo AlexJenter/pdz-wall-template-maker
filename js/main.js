@@ -21,17 +21,17 @@ function switchSVG( el, path ){
     });
 }
 
-switchSVG( $('#Home'),      "../svg/uebersicht.svg");
-switchSVG( $('#domain'),    "../svg/domain.svg");
-switchSVG( $('#topic'),     "../svg/topic.svg");
-switchSVG( $('#staff'),     "../svg/staff.svg");
-switchSVG( $('#student'),   "../svg/student.svg");
-switchSVG( $('#physical'),  "../svg/job-physical.svg");
-switchSVG( $('#digital'),   "../svg/job-digital.svg");
-switchSVG( $('#teaching'),  "../svg/job-teaching.svg");
-switchSVG( $('#rooms'),     "../svg/job-rooms.svg");
-switchSVG( $('#team'),      "../svg/job-team.svg");
-switchSVG( $('#documents'), "../svg/job-documents.svg");
+switchSVG( $('#Home'),      "./svg/uebersicht.svg");
+switchSVG( $('#domain'),    "./svg/domain.svg");
+switchSVG( $('#topic'),     "./svg/topic.svg");
+switchSVG( $('#staff'),     "./svg/staff.svg");
+switchSVG( $('#student'),   "./svg/student.svg");
+switchSVG( $('#physical'),  "./svg/job-physical.svg");
+switchSVG( $('#digital'),   "./svg/job-digital.svg");
+switchSVG( $('#teaching'),  "./svg/job-teaching.svg");
+switchSVG( $('#rooms'),     "./svg/job-rooms.svg");
+switchSVG( $('#team'),      "./svg/job-team.svg");
+switchSVG( $('#documents'), "./svg/job-documents.svg");
 
 
 // TEXT CHANGE
