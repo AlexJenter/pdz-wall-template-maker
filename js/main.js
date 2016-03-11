@@ -1,6 +1,6 @@
 // LOAD Home SVG
 $(document).ready( function() {
-    $('.content').load( "../svg/uebersicht.svg" );
+    $('.content').load( "./svg/uebersicht.svg" );
 });
 
 
