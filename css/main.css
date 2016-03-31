@@ -1,10 +1,20 @@
-/*@font-face { font-family: 'Roboto-Black'; src: url('../fonts/Roboto/Roboto-Black.ttf'); }*/
+/*@font-face { font-family: 'Roboto-Black'; src: url('./fonts/Roboto/Roboto-Black.ttf'); }*/
+
 
 *:not(i) {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+
+/*
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+*/
 
 body {
     background-color: #ddd;
@@ -30,6 +40,13 @@ svg {
     width: 70%;
     height: auto;
     margin: 0 auto;
+}
+
+.helplist {
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    list-style: decimal;
 }
 
 /* ALL id's that need to be fat */

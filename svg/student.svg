@@ -3,7 +3,7 @@
 <svg version="1.1" id="student" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
 	>
-<image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="../img/katze_weiss.png"  transform="matrix(0.6236 0 0 0.6236 87.874 87.874)">
+<image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="./img/katze_weiss.png"  transform="matrix(0.6236 0 0 0.6236 87.874 87.874)">
 </image>
 <rect id="farbfläche" x="28.3" y="255.1" style="fill:#881A51;" width="368.5" height="113.4"/>
 <path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,334.5c-67.3,0-121.9-54.6-121.9-121.9

@@ -1637,6 +1637,16 @@ var jsPDF = (function(global) {
 		};
 
 		/**
+		* Allows to add and embed non-standard fonts.
+		* More information: http://stackoverflow.com/questions/26908266/custom-font-faces-in-jspdf
+
+		*/
+
+		API.addFont = function(postScriptName, fontName, fontStyle){
+			addFont(postScriptName, fontName, fontStyle, 'StandardEncoding');
+		};
+
+		/**
 		 * Switches font style or variant for upcoming text elements,
 		 * while keeping the font face or family same.
 		 * See output of jsPDF.getFontList() for possible font names, styles.

@@ -1,6 +1,6 @@
 // LOAD Home SVG
 $(document).ready( function() {
-    $('.content').load( "../svg/uebersicht.svg" );
+    $('.content').load( "./svg/uebersicht.svg" );
 });
 
 
@@ -21,17 +21,17 @@ function switchSVG( el, path ){
     });
 }
 
-switchSVG( $('#Home'),      "../svg/uebersicht.svg");
-switchSVG( $('#domain'),    "../svg/domain.svg");
-switchSVG( $('#topic'),     "../svg/topic.svg");
-switchSVG( $('#staff'),     "../svg/staff.svg");
-switchSVG( $('#student'),   "../svg/student.svg");
-switchSVG( $('#physical'),  "../svg/job-physical.svg");
-switchSVG( $('#digital'),   "../svg/job-digital.svg");
-switchSVG( $('#teaching'),  "../svg/job-teaching.svg");
-switchSVG( $('#rooms'),     "../svg/job-rooms.svg");
-switchSVG( $('#team'),      "../svg/job-team.svg");
-switchSVG( $('#documents'), "../svg/job-documents.svg");
+switchSVG( $('#Home'),      "./svg/uebersicht.svg");
+switchSVG( $('#domain'),    "./svg/domain.svg");
+switchSVG( $('#topic'),     "./svg/topic.svg");
+switchSVG( $('#staff'),     "./svg/staff.svg");
+switchSVG( $('#student'),   "./svg/student.svg");
+switchSVG( $('#physical'),  "./svg/job-physical.svg");
+switchSVG( $('#digital'),   "./svg/job-digital.svg");
+switchSVG( $('#teaching'),  "./svg/job-teaching.svg");
+switchSVG( $('#rooms'),     "./svg/job-rooms.svg");
+switchSVG( $('#team'),      "./svg/job-team.svg");
+switchSVG( $('#documents'), "./svg/job-documents.svg");
 
 
 // TEXT CHANGE
@@ -96,6 +96,10 @@ $('.saveAsPdf').click( function () {
         var img = uri;
         var doc = new jsPDF();
 
+        // embed fonts (does not help)
+        //doc.addFont('Roboto-Black','Roboto Black','normal');
+        //doc.setFont('Roboto');
+
         // position marks for circle cutter
         doc.setLineWidth(0.2);
         doc.ellipse(105, 25, 3, 3);
@@ -105,6 +109,6 @@ $('.saveAsPdf').click( function () {
 
         // positioning of the generated PNG
         doc.addImage(img, 'PNG', 30, 75, 150, 150);
-        doc.save('test.pdf');
+        doc.save('wall_item.pdf');
     });
 });
