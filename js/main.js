@@ -55,13 +55,13 @@ function assignLabels(){
     textChange( $('svg #l-dritte'), "left",   "please enter third line...");
     textChange( $('svg #l-vierte'), "left",   "please enter fourth line...");
     textChange( $('svg #name'),     "middle", "please enter full name...");
-    textChange( $('svg #zimmer'),   "middle", "please enter Zimmernummer eingeben...");
+    textChange( $('svg #zimmer'),   "middle", "please enter room label...");
     textChange( $('svg #erste'),    "middle", "please enter first line...");
     textChange( $('svg #zweite'),   "middle", "please enter second line...");
     textChange( $('svg #tel'),      "middle", "please enter enter phone number ...", "+41 XX XXX XX XX");
     textChange( $('svg #location'), "middle", "please enter enter room number ...", "LEE O ");
-    textChange( $('svg #master'),   "middle", "please enter Funktion...", "Semesterarbeit / MA Thesis");
-    textChange( $('svg #semester'), "middle", "please enter Funktion...", "Semesterarbeit / MA Thesis");
+    textChange( $('svg #master'),   "middle", "please enter role...", "Master Student / Teaching Assistant");
+    textChange( $('svg #semester'), "middle", "please enter assignment...", "Semester Project / Master's Thesis");
     textChange( $('svg #funktion'), "middle", "please enter Funktion...", "job name");
     textChange( $('svg #job'),      "middle", "please enter job...");
 }

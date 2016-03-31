@@ -3,12 +3,12 @@
 <svg version="1.1" id="student" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="425.2px" height="425.2px" viewBox="0 0 425.2 425.2" style="enable-background:new 0 0 425.2 425.2;" xml:space="preserve"
 	>
-<image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="./img/katze_weiss.png"  transform="matrix(0.6236 0 0 0.6236 87.874 87.874)">
+<image style="overflow:visible;" width="400" height="400" id="bild" xlink:href="./img/picture_guide_web.jpg"  transform="matrix(0.6236 0 0 0.6236 87.874 87.874)">
 </image>
 <rect id="farbfläche" x="28.3" y="255.1" style="fill:#881A51;" width="368.5" height="113.4"/>
 <path id="maske" style="fill:#FFFFFF;" d="M0,0v425.2h425.2V0H0z M212.6,334.5c-67.3,0-121.9-54.6-121.9-121.9
 	S145.3,90.7,212.6,90.7s121.9,54.6,121.9,121.9S279.9,334.5,212.6,334.5z"/>
 <text id="name" transform="matrix(1 0 0 1 212.5986 273.4594)" style="fill:#FFFFFF; font-family:'Roboto-Black'; font-size:16px;">Michael Tester</text>
-<text id="master" transform="matrix(1 0 0 1 212.5948 286.9625)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Masterthesis</text>
-<text id="semester" transform="matrix(1 0 0 1 212.5949 301.1357)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Semesterproject</text>
+<text id="master" transform="matrix(1 0 0 1 212.5948 286.9625)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Master Student</text>
+<text id="semester" transform="matrix(1 0 0 1 212.5949 301.1357)" style="fill:#FFFFFF; font-family:'RobotoSlab-Light'; font-size:12px;">Semester Project</text>
 </svg>

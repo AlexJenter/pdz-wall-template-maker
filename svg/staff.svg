@@ -4,13 +4,13 @@
 <svg version="1.1" id="mitarbeiter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" width="425.199px" height="425.199px" viewBox="0 0 425.199 425.199" enable-background="new 0 0 425.199 425.199"
 	 xml:space="preserve">
-<image overflow="visible" enable-background="new    " width="400" height="400" id="bild" xlink:href="./img/katze_weiss.png"  transform="matrix(0.7643 0 0 0.7643 59.7385 59.7375)">
+<image overflow="visible" enable-background="new    " width="400" height="400" id="bild" xlink:href="./img/picture_guide_web.jpg"  transform="matrix(0.7643 0 0 0.7643 59.7385 59.7375)">
 </image>
 <rect id="farbfläche" x="70.108" y="278.043" fill="#881A51" width="284.894" height="117.356"/>
 <path id="maske" fill="#FFFFFF" d="M18.283,18.283v388.633h388.633V18.283H18.283z M212.6,362.862
 	c-82.991,0-150.261-67.271-150.261-150.262S129.609,62.339,212.6,62.339s150.262,67.27,150.262,150.261
 	S295.591,362.862,212.6,362.862z"/>
-<text id="name" transform="matrix(1 0 0 1 212.5994 299.925)" fill="#FFFFFF" font-family="'Roboto-Black'" font-size="21.936">Timon Bohemia</text>
+<text id="name" transform="matrix(1 0 0 1 212.5994 299.925)" fill="#FFFFFF" font-family="'Roboto-Black'" font-size="21.936">Max Muster</text>
 <text id="location" transform="matrix(1 0 0 1 212.5994 315.8362)" fill="#FFFFFF" font-family="'RobotoSlab-Light'" font-size="10.968">LEE O 202</text>
-<text id="tel" transform="matrix(1 0 0 1 212.5989 331.3811)" fill="#FFFFFF" font-family="'RobotoSlab-Light'" font-size="10.968">+41 44 632 38 53   </text>
+<text id="tel" transform="matrix(1 0 0 1 212.5989 331.3811)" fill="#FFFFFF" font-family="'RobotoSlab-Light'" font-size="10.968">+41 44 632 38 53</text>
 </svg>
